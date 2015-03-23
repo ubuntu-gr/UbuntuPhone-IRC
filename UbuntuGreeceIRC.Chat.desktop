@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=UbuntuGreeceIRC.Chat
+Comment=webapp for Ubuntu-gr-IRChat
+Type=Application
+Icon=Ubuntu-gr-IRChat.png
+Exec=webapp-container --fullscreen --enable-back-forward --store-session-cookies --webappUrlPatterns=https?://kiwiirc.com/client/irc.freenode.net/#ubuntu-gr* https://kiwiirc.com/client/irc.freenode.net/#ubuntu-gr %u
+Terminal=false
+X-Ubuntu-Touch=true

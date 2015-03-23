@@ -1,0 +1,15 @@
+{
+    "name": "ubuntu-gr-irchat.salih-emin",
+    "description": "Μιλήστε άμεσα με τα μέλη της Ελληνικής κοινότητα μέσο της εφαρμογής Ubuntu-gr-IRChat. Με την εφαρμογή θα συνδεθείτε στο κανάλι IRC της Ελληνικής κοινότητας Ubuntu",
+    "architecture": "all",
+    "title": "Ubuntu-gr IRChat",
+    "hooks": {
+        "UbuntuGreeceIRC.Chat": {
+            "apparmor": "UbuntuGreeceIRC.Chat.apparmor",
+            "desktop": "UbuntuGreeceIRC.Chat.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Salih Emin <salih-emin@ubuntu.com>",
+    "framework": "ubuntu-sdk-14.04"
+}
