@@ -9,7 +9,7 @@
             "desktop": "UbuntuGreeceIRC.Chat.desktop"
         }
     },
-    "version": "0.1",
+    "version": "0.2",
     "maintainer": "Salih Emin <salih-emin@ubuntu.com>",
     "framework": "ubuntu-sdk-14.04"
 }
